@@ -35,6 +35,7 @@ export const Content = styled.div`
             padding: 0 4rem 0 4rem;
             border: 1px solid #707070;
             font: normal normal normal 18px Helvetica Neue;
+            opacity: 1;
         }
     }
 `
