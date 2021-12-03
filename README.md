@@ -1,46 +1,18 @@
-# Getting Started with Create React App
+Aplicação foi criada usando typescript, e bulma rbx para estilização da pagina
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+pagina está responsiva, seguindo da melhor forma o mock apresentado para a realização da prova
 
-## Available Scripts
+priorizei a front end, procurei deixar o layoute bem parecido com o mock
+procurei deixar cada componente com uma unica responsabilidade
+criei varios components e uma page, no caso a home para a renderisação da pagina principal
 
-In the project directory, you can run:
+criei o backend usando o node js com o express, no backend eu fiz o crud de cadastro de produtos
+realizando o get de todos os produtos e tbm o get de um unico produto passando o id
+não usei o java com springBoot pois gastei mais tempo no front end e na minha concepção eu achei que seria
+mais rapido fazer o backend com o node js
 
-### `yarn start`
+porem na hora de fazer a requisição no front, não consegui chamar o arquivo json criado na minha maquina local
+por esse motivo eu fiz a requisição atraves de uma api externa, usando o useEffect assim como solicitado
+deixei um console.log da api com seus dados só para mostrar que tem retorno de dados, porem na aplicação ficou os dados estaticos para não descarizar o que se trata a aplicão
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+estarei subindo a api da minha maquina local atravez de um arquivo zip, e essa aplicação estará no git.
