@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.header`
+export const Container = styled.div`
     margin: 0 auto;
     max-width: 100%;
     background: #FFFFFF;
@@ -47,5 +47,11 @@ export const Content = styled.div`
         letter-spacing: 0px;
         color: #888888;
         opacity: 1;
+    }
+
+    @media screen and (max-width: 890px) {
+        .formulario {
+            padding-top: 10rem;
+        }
     }
 `

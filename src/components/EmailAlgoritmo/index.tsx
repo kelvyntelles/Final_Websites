@@ -22,7 +22,7 @@ export function EmailAlgoritmo() {
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vel vitae, atque excepturi error voluptatem sequi illo, voluptate, quod odit minus? Tempore magni aut, quod fuga consequatur nisi assumenda blanditiis.
                         </p>
                     </Column>
-                    <Column size={5}>
+                    <Column className="formulario" size={5}>
                         <form>
                             <Field>
                                 <Label className="label-algoritmo">Seu Nome</Label>

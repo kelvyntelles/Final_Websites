@@ -8,6 +8,7 @@ export function Header() {
                     <p>
                         <h5 className="frase1">Uma selção de produtos</h5>
                         <h1 className="frase2">especial para você</h1>
+                        <br />
                         <h6 className="frase3">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</h6>
                     </p>
                     <nav>
