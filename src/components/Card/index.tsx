@@ -22,7 +22,7 @@ export function CardSelecao() {
                             <p className="texto-card">ou 2x de R$9,99</p>
                         </Content>
                         <Button className="button-card" color="white">
-                            Enviar
+                            Comprar
                         </Button>
                     </Card.Content>
             </Card>

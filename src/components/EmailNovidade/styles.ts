@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerPage = styled.div`
+export const Container = styled.div`
     margin: 0 auto;
     max-width: 100%;
     background: #FFFFFF;
@@ -12,10 +12,6 @@ export const Content = styled.div`
     padding: 1rem 1rem 2rem;
     color: #888888;
     text-align: center;
-
-    .grupo-produtos {
-        margin-top: 1rem;
-    }
 
     hr {
         height: 5px;

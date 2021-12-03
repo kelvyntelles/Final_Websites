@@ -19,7 +19,6 @@ export function EmailAlgoritmo() {
                         <br />
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eaque ab culpa nobis quam nemo ratione, est provident quos enim iure officiis nam, molestias, labore illo omnis ipsa deserunt. Eligendi.
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eaque ab culpa nobis quam nemo ratione, est provident quos enim iure officiis nam, molestias, labore illo omnis ipsa deserunt. Eligendi.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vel vitae, atque excepturi error voluptatem sequi illo, voluptate, quod odit minus? Tempore magni aut, quod fuga consequatur nisi assumenda blanditiis.
                         </p>
                     </Column>
                     <Column className="formulario" size={5}>
