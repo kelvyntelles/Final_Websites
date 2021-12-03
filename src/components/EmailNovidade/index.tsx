@@ -1,11 +1,13 @@
 import { Container, Content } from "./styles";
+import { Email } from './../Email/index';
 
 export function EmailNovidade() {
     return (
         <Container>
             <Content>
-                <h1>Sua seleção especial</h1>
+                <h1>Compartilhe a novidade</h1>
                 <hr />
+                <Email />
             </Content>
         </Container>
     )
