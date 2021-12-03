@@ -1,7 +1,16 @@
+import { useState, useEffect } from 'react';
 import { Card, Container, Content, Image, Media, Title, Button } from "rbx"
 import { ContainerCard } from "./styles"
 
 export function CardSelecao() {
+    const [repositories, setRepositories] = useState([]);
+    
+    useEffect(() => {
+        fetch('https://api.github.com/orgs/rocketseat/repos')
+            .then(response => response.json())
+            .then(data => setRepositories(data))
+    }, []);
+
     return (
         <ContainerCard>
             <Card>
